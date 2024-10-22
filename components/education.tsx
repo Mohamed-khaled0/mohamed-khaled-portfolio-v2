@@ -23,6 +23,7 @@ export default function Education() {
       <div className="mt-4 flex gap-6 border border-black/5 rounded-sm pt-4 pb-7 px-5 md:p-10 bg-gray-100 dark:bg-white/10 mx-6 ">
         <div>
           <Image
+          className="hidden sm:block"
           aria-label='ThebesLogo' 
             src={ThebesLogo}
             alt="Thebes"
