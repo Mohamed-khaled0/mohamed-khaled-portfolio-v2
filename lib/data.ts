@@ -45,6 +45,7 @@ export const experiencesData = [
     title: "Web Developer Intern",
     date: "August 2024 - September 2024",
     company: "Information Technology Institute ITI",
+    location: "Port Said ,Egypt",
     description: [
       "Developed responsive and dynamic web pages.",
       "Collaborated with colleagues and mentors as a teamwork.",

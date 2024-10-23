@@ -10,6 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import { AiOutlineGooglePlus } from "react-icons/ai";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -45,7 +46,8 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold text-xl capitalize"> {  item.title}</h3>
-              <p className="font-normal text-black !mt-1 dark:text-white/100 "  >@ {item.company}</p>
+              <p className="font-normal text-black !mt-1 dark:text-white/80 " > {item.location}</p>
+              <p className="font-normal text-black !mt-1 dark:text-white/90 "  >@ {item.company}</p>
               <p className=" !mt-1  !font-normal text-gray-800 dark:text-white/100 ">
                {item.description}
               </p>
