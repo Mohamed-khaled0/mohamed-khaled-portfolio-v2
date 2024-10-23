@@ -45,14 +45,16 @@ export default function Project({
       <section className="bg-gray-100 max-w-[58rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative lg:min-h-[21rem] hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <div className="pt-4 pb-7 px-5 md:pl-10 md:pr-2 md:pt-10 lg:max-w-[50%] flex flex-col h-full">
           <h3 className="text-2xl font-semibold mb-4">{title}</h3>
+          <div className="flex ">
           <p className="font-bold text-gray-800 dark:text-white/90 ">Made with:</p>
           <ul className="flex flex-wrap  gap-2 mb-3 sm:mt-auto">
             {icons.map((icon, iconIndex) => (
               <li key={iconIndex}>
-                <Icon icon={icon} className="mr-3 text-2xl  " />
+                <Icon icon={icon} className= " ml-1 mr-1 text-2xl  " />
               </li>
             ))}
           </ul>
+          </div>
           <p className="mt-2 leading-relaxed text-gray-900 dark:text-white/100 mb-3">
             {description}
           </p>
@@ -87,7 +89,6 @@ export default function Project({
         {urlLink && (
           <a href={urlLink} target="_blank" rel="noopener noreferrer">
             <Image
-            aria-description={`Image for ${title}`}
             aria-label={`Project image for ${title}`} 
               src={imageUrl}
               alt={`Image for ${title}`}

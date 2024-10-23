@@ -32,6 +32,7 @@ export default function Header() {
                 animate={{ y: 0, opacity: 1 }}
                 >
                   <button
+                  aria-label="LanguageSwitcher"
                     className="flex items-center justify-center w-full px-3 py-3 dark:text-gray-300 transition text-black"
                     title="Switch to Deutsch"
                   >
@@ -67,6 +68,7 @@ export default function Header() {
 
                 {link.name === activeSection && (
                   <motion.span
+                  aria-label="activeSection"
                     className="text-white rounded-full absolute inset-0 -z-10 dark:bg-gray-800 bg-gray-200  "
                     layoutId="activeSection"
                     transition={{

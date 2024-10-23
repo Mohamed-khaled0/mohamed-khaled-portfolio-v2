@@ -27,14 +27,14 @@ export default function Intro() {
             }}
           >
             <Image
-              className=" rounded-full object-cover border-[0.10rem] border-white shadow-xl " 
+              className=" rounded-full object-cover border-[0.10rem] border-white shadow-xl "
               priority={true}
               quality={96}
               width={130}
               height={130}
               src={personalPhoto}
               alt={"Mohamed personal photo"}
-              aria-label='Mohamed personal photo' 
+              aria-label="Mohamed personal photo"
             />
           </motion.div>
         </div>
@@ -44,12 +44,15 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-<span className="font-bold">Hi, I'm Mohamed Khaled.</span> I'm a{" "}
-<span className="font-bold">frontend developer.</span> I was an intern as a web developer at ITI and am certified by Meta in front-end development. I enjoy building{" "}
-<span className="italic">sites and apps</span> with a focus on{" "}
-<span className="font-bold">TypeScript, Tailwind CSS, and React.js (Next.js)</span>.
-
-
+          <span className="font-bold">Hi, I'm Mohamed Khaled.</span> I'm a{" "}
+          <span className="font-bold">frontend developer.</span> I was an intern
+          as a web developer at ITI and am certified by Meta in front-end
+          development. I enjoy building{" "}
+          <span className="italic">sites and apps</span> with a focus on{" "}
+          <span className="font-bold">
+            TypeScript, Tailwind CSS, and React.js (Next.js)
+          </span>
+          .
         </motion.h1>
 
         <motion.div
@@ -82,7 +85,6 @@ export default function Intro() {
             href="https://www.linkedin.com/in/mohamed-khaled3/"
             target="_blank"
             aria-label="linkedin"
-
           >
             <span className="opacity-70">LinkedIn</span>
             <BsLinkedin className="opacity-70" />

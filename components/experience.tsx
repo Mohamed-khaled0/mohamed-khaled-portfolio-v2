@@ -1,5 +1,5 @@
 "use client";
-
+import { FaMapMarkerAlt, FaBuilding } from "react-icons/fa";
 import React from "react";
 import SectionHeading from "./section-heading";
 import {
@@ -10,7 +10,6 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
-import { AiOutlineGooglePlus } from "react-icons/ai";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -45,11 +44,18 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold text-xl capitalize"> {  item.title}</h3>
-              <p className="font-normal text-black !mt-1 dark:text-white/80 " > {item.location}</p>
-              <p className="font-normal text-black !mt-1 dark:text-white/90 "  >@ {item.company}</p>
-              <p className=" !mt-1  !font-normal text-gray-800 dark:text-white/100 ">
-               {item.description}
+              <h3 className="font-semibold text-xl capitalize">
+                {" "}
+                {item.title}
+              </h3>
+              <p className="font-normal text-black !mt-1 dark:text-white/80 flex items-center">
+                <FaMapMarkerAlt className="mr-2" /> {item.location}
+              </p>
+              <p className="font-normal text-black !mt-1 dark:text-white/90 flex items-center">
+                <FaBuilding className="mr-2" /> {item.company}
+              </p>
+              <p className="!mt-1 !font-normal text-gray-800 dark:text-white/100 flex items-center">
+                {item.description}
               </p>
             </VerticalTimelineElement>
           </React.Fragment>

@@ -47,24 +47,27 @@ export const experiencesData = [
     company: "Information Technology Institute ITI",
     location: "Port Said ,Egypt",
     description: [
-      "Developed responsive and dynamic web pages.",
-      "Collaborated with colleagues and mentors as a teamwork.",
-      "Used version control to manage project versions , changes.",
+      "  Developed responsive and dynamic web pages, collaborated with colleagues and mentors as part of a team, and used version control to manage project versions and changes.",
     ],
     icon: React.createElement(CgWorkAlt),
   },
 ] as const;
-
 
 export const projectsData = [
   {
     title: "My-Portfolio",
     description:
       "Modern personal website designed to showcase my skills, projects, and experience in web development. It is built using modern web technologies like Next.js, React, Tailwind CSS, and TypeScript to ensure a responsive and optimized user experience.",
-    tags: ["Typescript","NextJs", "Tailwind CSS"],
-    icons: ["devicon:nextjs","logos:framer","devicon:typescript", "devicon:tailwindcss"],
+    tags: ["Typescript", "NextJs", "Tailwind CSS"],
+    icons: [
+      "devicon:nextjs",
+      "logos:framer",
+      "devicon:typescript",
+      "devicon:tailwindcss",
+    ],
     imageUrl: portfolioImg,
-    githubLink: "https://github.com/Mohamed-khaled0/mohamed-khaled-portfolio-v2", 
+    githubLink:
+      "https://github.com/Mohamed-khaled0/mohamed-khaled-portfolio-v2",
     urlLink: "https://mohamed-khaled-frontend-developer.netlify.app/",
     features: [
       "Real-time cryptocurrency prices",
@@ -80,7 +83,7 @@ export const projectsData = [
     tags: ["React", "Firebase", "Tailwind CSS"],
     icons: ["logos:react", "logos:firebase", "devicon:tailwindcss"],
     imageUrl: cryptoImg,
-    githubLink: "https://github.com/your-crypto-repo", 
+    githubLink: "https://github.com/Mohamed-khaled0/Crypto-React-Firebase-App",
     urlLink: "https://crypto-6f014.web.app/",
     features: [
       "Real-time cryptocurrency prices",
@@ -101,7 +104,7 @@ export const projectsData = [
       "logos:html5",
     ],
     imageUrl: resturantImg,
-    githubLink: "https://github.com/your-restaurant-repo",
+    githubLink: "https://github.com/Mohamed-khaled0/food-app-react-tailwind",
     urlLink: "https://restaurant-app-react-tailwind.netlify.app/",
     features: [
       "Display top-rated menu items with images and prices",
