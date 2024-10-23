@@ -5,11 +5,8 @@ import portfolioImg from "@/public/portfolio.webp";
 
 import { CgWorkAlt } from "react-icons/cg";
 
-type LinkType =
-  | { name: string; hash: string } // Regular links
-  | { name: "LanguageSwitcher"; isLanguageSwitcher: true }; // Language switcher
 
-export const links: LinkType[] = [
+export const links = [
   {
     name: "Home",
     hash: "#home",
@@ -33,10 +30,6 @@ export const links: LinkType[] = [
   {
     name: "Contact",
     hash: "#contact",
-  },
-  {
-    name: "LanguageSwitcher",
-    isLanguageSwitcher: true,
   },
 ];
 

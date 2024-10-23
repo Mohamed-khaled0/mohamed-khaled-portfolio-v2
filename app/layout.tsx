@@ -6,6 +6,7 @@ import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import "./globals.css";
 import Footer from "@/components/footer";
+import LanguageSwitch from "@/components/language-switch";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -36,7 +37,6 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
-
             <Toaster position="top-right" />
             <ThemeSwitch />
             <Footer/>
