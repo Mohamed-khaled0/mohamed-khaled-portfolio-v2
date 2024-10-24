@@ -48,13 +48,13 @@ export default function Experience() {
                 {" "}
                 {item.title}
               </h3>
-              <p className="font-normal text-black !mt-1 dark:text-white/80 flex items-center">
+              <p className="font-normal text-black  !mt-1 dark:text-white/80 flex items-center">
                 <FaMapMarkerAlt className="mr-2" /> {item.location}
               </p>
               <p className="font-normal text-black !mt-1 dark:text-white/90 flex items-center">
                 <FaBuilding className="mr-2" /> {item.company}
               </p>
-              <p className="!mt-1 !font-normal text-gray-800 dark:text-white/100 flex items-center">
+              <p className="!mt-1 !font-normal   text-gray-800 dark:text-white/100 flex items-center">
                 {item.description}
               </p>
             </VerticalTimelineElement>

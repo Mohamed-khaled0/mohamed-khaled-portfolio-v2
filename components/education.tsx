@@ -25,7 +25,7 @@ export default function Education() {
     >
       <SectionHeading>My Education</SectionHeading>
 
-      <div className="mt-4 flex gap-6 border border-black/5 rounded-sm pt-4 pb-7 px-5 md:p-10 bg-gray-100 dark:bg-white/10 mx-6 ">
+      <div className="mt-4 flex gap-6 border border-black/5 rounded-sm pt-4 pb-7  lg:p-10  bg-gray-100  dark:bg-white/10 mx-6 ">
         <div>
           <Image
             className="hidden sm:block"
@@ -34,11 +34,11 @@ export default function Education() {
             alt="Thebes"
             quality={100}
             width="150"
-            style={{ borderRadius: "5px" }}
+            style={{ borderRadius: "3px" }}
           />
         </div>
 
-        <div>
+        <div >
           <p className="text-lg font-medium flex items-center">
             <FaGraduationCap className="mr-2" /> Bachelor of Computer Science
           </p>
