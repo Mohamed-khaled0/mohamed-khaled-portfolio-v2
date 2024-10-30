@@ -45,14 +45,10 @@ export default function Intro() {
           animate={{ opacity: 1, y: 0 }}
         >
           <span className="font-bold">Hi, I'm Mohamed Khaled.</span> I'm a{" "}
-          <span className="font-bold">frontend developer.</span> I was an intern
-          as a web developer at ITI and am certified by Meta in front-end
-          development. I enjoy building{" "}
-          <span className="italic">sites and apps</span> with a focus on{" "}
-          <span className="font-bold">
-            TypeScript, Tailwind CSS, and React.js (Next.js)
-          </span>
-          .
+          <span className="italic text-blue-400">Flutter developer</span> with
+          hands-on experience from my internships at ITI and CodeAlpha. I focus
+          on Dart, MVVM, and Bloc/Cubit, delivering responsive, user-friendly
+          mobile apps with clean, maintainable code.
         </motion.h1>
 
         <motion.div

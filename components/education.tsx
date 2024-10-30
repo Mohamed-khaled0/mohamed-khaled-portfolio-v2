@@ -52,10 +52,6 @@ export default function Education() {
           <p className="my-1 flex items-center">
             <FaChartLine className="mr-2" /> GPA 3/4
           </p>
-          <ul className="list-disc pl-6">
-            <li className="flex items-center">○ Major in Computer Science</li>
-            <li className="flex items-center">○ Minor in Web Applications</li>
-          </ul>
         </div>
       </div>
     </motion.section>

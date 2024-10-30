@@ -1,7 +1,8 @@
 import React from "react";
 import cryptoImg from "@/public/crypto.webp";
-import resturantImg from "@/public/resturant.webp";
 import portfolioImg from "@/public/portfolio.webp";
+import photoReviveImg from "@/public/photoReviveImg.webp";
+
 
 import { CgWorkAlt } from "react-icons/cg";
 
@@ -44,11 +45,46 @@ export const experiencesData = [
     ],
     icon: React.createElement(CgWorkAlt),
   },
+  {
+    title: "Mobile Developer Intern",
+    date: "March 2024 - April 2024",
+    company: "CodeAlpha",
+    location: "Remote | Online",
+    description: [
+      "Designed and developed a responsive and user-friendly e-commerce application, created custom views and user interfaces using SwiftUI, integrated third-party libraries and APIs into existing applications, and utilized Git for version control to manage source code."
+    ],
+    icon: React.createElement(CgWorkAlt),
+  },
 ] as const;
 
 export const projectsData = [
   {
-    title: "My-Portfolio",
+    title: "PhotoRevive - Image Resolution",
+    description:
+      "An advanced AI-powered application focused on restoring and enhancing the resolution of old photos. Our project leverages deep learning techniques to deliver impressive photo restoration results, preserving cherished memories by improving quality and clarity. ",
+    tags: ["React", "TensorFlow.js", "Tailwind CSS", "AI", "Image Processing"],
+    icons: [
+      "devicon:react",
+      "logos:tensorflow",
+      "devicon:tailwindcss",
+      "logos:python",
+      "devicon:googlecolab",
+
+    ],
+    imageUrl: photoReviveImg,
+    githubLink: "https://github.com/Mohamed-khaled0/image-super-resolution",
+    urlLink: "https://image-super-resolution.netlify.app/",
+    features: [
+      "AI-based image enhancement for photo restoration",
+      "Intuitive and user-friendly interface",
+      "Real-time preview of enhanced photos",
+      "Responsive design for mobile and desktop",
+      "Image upload and download functionality"
+    ],
+  },
+  
+  {
+    title: "My-Portfolio Website",
     description:
       "Modern personal website designed to showcase my skills, projects, and experience in web development. It is built using modern web technologies like Next.js, React, Tailwind CSS, and TypeScript to ensure a responsive and optimized user experience.",
     tags: ["Typescript", "NextJs", "Tailwind CSS"],
@@ -70,7 +106,7 @@ export const projectsData = [
     ],
   },
   {
-    title: "Crypto",
+    title: "Crypto Website",
     description:
       "A modern cryptocurrency tracking app providing real-time cryptocurrency prices, trends, and charts. Users can sign up, manage profiles, and personalize theme preferences.",
     tags: ["React", "Firebase", "Tailwind CSS"],
@@ -85,64 +121,33 @@ export const projectsData = [
       "Mobile-friendly navigation with secure routing",
     ],
   },
-  {
-    title: "Restaurant Website",
-    description:
-      "A food menu project with filtering options allowing users to sort items by type (burgers, pizza, salads, etc.) and price range. Built with React and Tailwind CSS.",
-    tags: ["React", "JavaScript", "Tailwind CSS", "HTML5"],
-    icons: [
-      "logos:react",
-      "logos:javascript",
-      "devicon:tailwindcss",
-      "logos:html5",
-    ],
-    imageUrl: resturantImg,
-    githubLink: "https://github.com/Mohamed-khaled0/food-app-react-tailwind",
-    urlLink: "https://restaurant-app-react-tailwind.netlify.app/",
-    features: [
-      "Display top-rated menu items with images and prices",
-      "Filter by food type and price",
-      "Responsive design with hover and scaling effects",
-    ],
-  },
+
 ] as const;
 
 export const skillsData = [
   {
-    name: "HTML",
-    icon: "vscode-icons:file-type-html",
+    name: "Dart",
+    icon: "logos:dart",
   },
   {
-    name: "CSS",
-    icon: "vscode-icons:file-type-css",
+    name: "RESTful APIs",
+    icon: "carbon:api",
   },
   {
-    name: "Bootstrap",
-    icon: "logos:bootstrap",
+    name: "Dio",
+    icon: "simple-icons:dart",
   },
   {
-    name: "Tailwind",
-    icon: "logos:tailwindcss-icon",
+    name: "Shared Preferences",
+    icon: "ic:round-storage",
   },
   {
-    name: "JavaScript",
-    icon: "logos:javascript",
+    name: "Hive",
+    icon: "simple-icons:hive",
   },
   {
-    name: "TypeScript",
-    icon: "logos:typescript-icon",
-  },
-  {
-    name: "React",
-    icon: "logos:react",
-  },
-  {
-    name: "Redux",
-    icon: "logos:redux",
-  },
-  {
-    name: "Next.js",
-    icon: "logos:nextjs-icon",
+    name: "Firebase",
+    icon: "logos:firebase",
   },
   {
     name: "Git",
@@ -153,8 +158,36 @@ export const skillsData = [
     icon: "logos:github-icon",
   },
   {
-    name: "MongoDB",
-    icon: "logos:mongodb-icon",
+    name: "Payment Gateways",
+    icon: "mdi:credit-card-outline",
+  },
+  {
+    name: "Google Maps",
+    icon: "logos:google-maps",
+  },
+  {
+    name: "Responsive Design",
+    icon: "bx:bx-devices",
+  },
+  {
+    name: "HTML",
+    icon: "vscode-icons:file-type-html",
+  },
+  {
+    name: "CSS",
+    icon: "vscode-icons:file-type-css",
+  },
+  {
+    name: "Tailwind",
+    icon: "logos:tailwindcss-icon",
+  },
+  {
+    name: "JavaScript",
+    icon: "logos:javascript",
+  },
+  {
+    name: "React",
+    icon: "logos:react",
   },
   {
     name: "Framer Motion",
