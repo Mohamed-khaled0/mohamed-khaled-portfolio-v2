@@ -83,44 +83,44 @@ export const projectsData = [
     ],
   },
   
-  {
-    title: "My-Portfolio Website",
-    description:
-      "Modern personal website designed to showcase my skills, projects, and experience in web development. It is built using modern web technologies like Next.js, React, Tailwind CSS, and TypeScript to ensure a responsive and optimized user experience.",
-    tags: ["Typescript", "NextJs", "Tailwind CSS"],
-    icons: [
-      "devicon:nextjs",
-      "logos:framer",
-      "devicon:typescript",
-      "devicon:tailwindcss",
-    ],
-    imageUrl: portfolioImg,
-    githubLink:
-      "https://github.com/Mohamed-khaled0/mohamed-khaled-portfolio-v2",
-    urlLink: "https://mohamed-khaled-frontend-developer.netlify.app/",
-    features: [
-      "Real-time cryptocurrency prices",
-      "Responsive design with Dark/Light mode toggle",
-      "User Authentication using Firebase",
-      "Mobile-friendly navigation with secure routing",
-    ],
-  },
-  {
-    title: "Crypto Website",
-    description:
-      "A modern cryptocurrency tracking app providing real-time cryptocurrency prices, trends, and charts. Users can sign up, manage profiles, and personalize theme preferences.",
-    tags: ["React", "Firebase", "Tailwind CSS"],
-    icons: ["logos:react", "logos:firebase", "devicon:tailwindcss"],
-    imageUrl: cryptoImg,
-    githubLink: "https://github.com/Mohamed-khaled0/Crypto-React-Firebase-App",
-    urlLink: "https://crypto-6f014.web.app/",
-    features: [
-      "Real-time cryptocurrency prices",
-      "Responsive design with Dark/Light mode toggle",
-      "User Authentication using Firebase",
-      "Mobile-friendly navigation with secure routing",
-    ],
-  },
+  // {
+  //   title: "My-Portfolio Website",
+  //   description:
+  //     "Modern personal website designed to showcase my skills, projects, and experience in web development. It is built using modern web technologies like Next.js, React, Tailwind CSS, and TypeScript to ensure a responsive and optimized user experience.",
+  //   tags: ["Typescript", "NextJs", "Tailwind CSS"],
+  //   icons: [
+  //     "devicon:nextjs",
+  //     "logos:framer",
+  //     "devicon:typescript",
+  //     "devicon:tailwindcss",
+  //   ],
+  //   imageUrl: portfolioImg,
+  //   githubLink:
+  //     "https://github.com/Mohamed-khaled0/mohamed-khaled-portfolio-v2",
+  //   urlLink: "https://mohamed-khaled-frontend-developer.netlify.app/",
+  //   features: [
+  //     "Real-time cryptocurrency prices",
+  //     "Responsive design with Dark/Light mode toggle",
+  //     "User Authentication using Firebase",
+  //     "Mobile-friendly navigation with secure routing",
+  //   ],
+  // },
+  // {
+  //   title: "Crypto Website",
+  //   description:
+  //     "A modern cryptocurrency tracking app providing real-time cryptocurrency prices, trends, and charts. Users can sign up, manage profiles, and personalize theme preferences.",
+  //   tags: ["React", "Firebase", "Tailwind CSS"],
+  //   icons: ["logos:react", "logos:firebase", "devicon:tailwindcss"],
+  //   imageUrl: cryptoImg,
+  //   githubLink: "https://github.com/Mohamed-khaled0/Crypto-React-Firebase-App",
+  //   urlLink: "https://crypto-6f014.web.app/",
+  //   features: [
+  //     "Real-time cryptocurrency prices",
+  //     "Responsive design with Dark/Light mode toggle",
+  //     "User Authentication using Firebase",
+  //     "Mobile-friendly navigation with secure routing",
+  //   ],
+  // },
 
 ] as const;
 
@@ -129,14 +129,7 @@ export const skillsData = [
     name: "Dart",
     icon: "logos:dart",
   },
-  {
-    name: "RESTful APIs",
-    icon: "carbon:api",
-  },
-  {
-    name: "Dio",
-    icon: "simple-icons:dart",
-  },
+ 
   {
     name: "Shared Preferences",
     icon: "ic:round-storage",
@@ -148,6 +141,10 @@ export const skillsData = [
   {
     name: "Firebase",
     icon: "logos:firebase",
+  },
+  {
+    name: "Dio",
+    icon: "simple-icons:dart",
   },
   {
     name: "Git",
@@ -168,6 +165,10 @@ export const skillsData = [
   {
     name: "Responsive Design",
     icon: "bx:bx-devices",
+  },
+  {
+    name: "Postman",
+    icon: "logos:postman-icon",
   },
   {
     name: "HTML",
@@ -193,8 +194,5 @@ export const skillsData = [
     name: "Framer Motion",
     icon: "logos:framer",
   },
-  {
-    name: "Postman",
-    icon: "logos:postman-icon",
-  },
+
 ] as const;
