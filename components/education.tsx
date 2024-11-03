@@ -40,17 +40,17 @@ export default function Education() {
 
         <div >
           <p className="text-lg font-medium flex items-center">
-            <FaGraduationCap className="mr-2" /> Bachelor of Computer Science
+            <FaGraduationCap size={14} className="mr-2" /> Bachelor of Computer Science
           </p>
           <p className="flex items-center">
-            <FaUniversity className="mr-2" /> Thebes Higher Institute of
+            <FaUniversity  size={14} className="mr-2" /> Thebes Higher Institute of
             Information Technology
           </p>
           <p className="mt-1 flex items-center">
-            <FaCalendarAlt className="mr-2" /> 2021 : 2025
+            <FaCalendarAlt size={14} className="mr-2" /> 2021 : 2025
           </p>
           <p className="my-1 flex items-center">
-            <FaChartLine className="mr-2" /> GPA 3/4
+            <FaChartLine size={14} className="mr-2" /> GPA 3/4
           </p>
         </div>
       </div>
