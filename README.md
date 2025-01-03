@@ -5,7 +5,7 @@ Welcome to  **Mohamed Khaled Portfolio**! This project is a personal website des
 
 ## 🚀 Live Demo
 
-Check out the live version of the portfolio [here](https://mohamed-khaled-frontend-developer.netlify.app/).
+Check out the live version of the portfolio [here](https://mohamed-khaled-software-engineer.netlify.app/).
 
 
 
