@@ -126,25 +126,32 @@ export const projectsData = [
 
 export const skillsData = [
   {
-    name: "Dart",
-    icon: "logos:dart",
-  },
- 
-  {
-    name: "Shared Preferences",
-    icon: "ic:round-storage",
+    name: "Manual Testing",
+    icon: "mdi:magnify",
   },
   {
-    name: "Hive",
-    icon: "simple-icons:hive",
+    name: "Automated Testing",
+    icon: "mdi:robot",
   },
   {
-    name: "Firebase",
-    icon: "logos:firebase",
+    name: "Selenium",
+    icon: "logos:selenium",
   },
   {
-    name: "Dio",
-    icon: "simple-icons:dart",
+    name: "Postman",
+    icon: "logos:postman-icon",
+  },
+  {
+    name: "API Testing",
+    icon: "mdi:api",
+  },
+  {
+    name: "Agile Methodology",
+    icon: "mdi:account-group-outline",  
+  },
+  {
+    name: "Jira",
+    icon: "logos:jira",
   },
   {
     name: "Git",
@@ -155,22 +162,6 @@ export const skillsData = [
     icon: "logos:github-icon",
   },
   {
-    name: "Payment Gateways",
-    icon: "mdi:credit-card-outline",
-  },
-  {
-    name: "Google Maps",
-    icon: "logos:google-maps",
-  },
-  {
-    name: "Responsive Design",
-    icon: "bx:bx-devices",
-  },
-  {
-    name: "Postman",
-    icon: "logos:postman-icon",
-  },
-  {
     name: "HTML",
     icon: "vscode-icons:file-type-html",
   },
@@ -179,20 +170,8 @@ export const skillsData = [
     icon: "vscode-icons:file-type-css",
   },
   {
-    name: "Tailwind",
-    icon: "logos:tailwindcss-icon",
-  },
-  {
     name: "JavaScript",
     icon: "logos:javascript",
-  },
-  {
-    name: "React",
-    icon: "logos:react",
-  },
-  {
-    name: "Framer Motion",
-    icon: "logos:framer",
   },
 
 ] as const;
