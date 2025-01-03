@@ -40,16 +40,15 @@ export default function Intro() {
         </div>
 
         <motion.h1
-          className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
-          <span className="font-bold">Hi, I'm Mohamed Khaled.</span> I'm a{" "}
-          <span className="italic text-blue-400">Flutter developer</span> with
-          hands-on experience from my internships at ITI and CodeAlpha. I focus
-          on Dart, MVVM, and Bloc/Cubit, delivering responsive, user-friendly
-          mobile apps with clean, maintainable code.
-        </motion.h1>
+  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <span className="font-bold">Hi, I'm Mohamed Khaled.</span> I'm an{" "}
+  <span className="italic text-blue-400">Automation Software Tester</span> with
+  ISTQB Foundation Level Certification and expertise in manual and automated testing. 
+  I have a good knowledge in API testing, mobile testing, and Agile methodologies, ensuring high-quality software delivery.
+</motion.h1>
 
         <motion.div
           className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -78,7 +77,7 @@ export default function Intro() {
 
           <a
             className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-            href="https://www.linkedin.com/in/mohamed-khaled3/"
+            href="https://www.linkedin.com/in/mohamed-khaled4/"
             target="_blank"
             aria-label="linkedin"
           >

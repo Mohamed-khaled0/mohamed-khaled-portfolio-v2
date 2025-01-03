@@ -12,9 +12,9 @@ const nunito = Nunito({ subsets: ["latin"] });
 
 
 export const metadata = {
-  title: "Mohamed Khaled | Software Engineer",
-  description: "Hi, I'm Mohamed Khaled, a passionate Software Engineer with expertise in front-end development using Next.js, HTML, and Tailwind CSS. My portfolio showcases my projects, skills, and achievements, designed with modern aesthetics and smooth animations using Framer Motion. Explore my work and get to know me better!",
-  keywords: "Mohamed Khaled, Software Engineer, Frontend Developer, Next.js, HTML, Tailwind CSS, Portfolio, Web Development, Framer Motion, UI/UX",
+  title: "Mohamed Khaled | Software Tester",
+  description: "Hi, I'm Mohamed Khaled, an ISTQB Foundation Level Certified Software Tester with expertise in manual and automated testing, mobile testing, and Agile methodologies. My portfolio showcases my testing projects, skills, and achievements in ensuring software quality.",
+  keywords: "Mohamed Khaled, Software Tester, Automation Tester, Manual Testing, Automated Testing, API Testing, JIRA, Postman, Selenium, Software Quality Assurance, Bug Tracking, Portfolio",
   authors:[{ name: "Mohamed Khaled" }] ,
   viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
