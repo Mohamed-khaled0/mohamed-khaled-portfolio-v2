@@ -36,26 +36,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer Intern",
-    date: "August 2024 - September 2024",
-    company: "Information Technology Institute ITI",
-    location: "Port Said ,Egypt",
+    title: "Coding Expertise for AI Training",
+    date: "November 2024 - Present",
+    company: "Outlier AI",
+    location: "US, Remote",
     description: [
-      "  Developed responsive and dynamic web pages, collaborated with colleagues and mentors as part of a team, and used version control to manage project versions and changes.",
+      "Achieved exceptional outcomes, earning over $1300 through consistently high-quality contributions.",
+      "Wrote clear and concise prompts to guide AI behavior and task performance for over 150 tasks, improving output quality and adherence to coding standards.",
     ],
     icon: React.createElement(CgWorkAlt),
   },
   {
-    title: "Mobile Developer Intern",
-    date: "March 2024 - April 2024",
-    company: "CodeAlpha",
-    location: "Remote | Online",
+    title: "Food Quality Control (Last Mile)",
+    date: "June 2021 - December 2021",
+    company: "Maxab",
+    location: "Haram, Egypt",
     description: [
-      "Designed and developed a responsive and user-friendly e-commerce application, created custom views and user interfaces using SwiftUI, integrated third-party libraries and APIs into existing applications, and utilized Git for version control to manage source code."
+      "Reviewed over 6+ orders daily before shipment to ensure 100% accuracy in SKUs, product quantities, and customer requirements.",
+      "Collaborated with warehouse teams to resolve issues quickly, ensuring smooth operations and reducing shipment delays.",
     ],
     icon: React.createElement(CgWorkAlt),
   },
 ] as const;
+
 
 export const projectsData = [
   {

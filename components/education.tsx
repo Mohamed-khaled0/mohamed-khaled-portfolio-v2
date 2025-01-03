@@ -50,7 +50,7 @@ export default function Education() {
             <FaCalendarAlt size={14} className="mr-2" /> 2021 : 2025
           </p>
           <p className="my-1 flex items-center">
-            <FaChartLine size={14} className="mr-2" /> GPA 3/4
+            <FaChartLine size={14} className="mr-2" /> GPA 3.0 out of 4.0
           </p>
         </div>
       </div>
